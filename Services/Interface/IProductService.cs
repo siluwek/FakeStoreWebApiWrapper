@@ -11,6 +11,6 @@ namespace FakeStoreWebApi.Services.Interface
         Task<ProductResponse> GetProductsAsync();
         Task<ProductResponse> GetProductAsync(int productId);
         Task<ProductResponse> CreateProductAsync(Product product);
-        Task<ProductResponse> UpdateProductAsync(int id,Product product);
+        Task<ProductResponse> UpdateProductAsync(int id,Product product);//
     }
 }
